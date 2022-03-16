@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class KhachSanTestDrive {
     public static void main(String[] args) {
-        
-    Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int n;  // số khách trọ
         KhachSan khachSan;
         // tạo 1 ArrayList lưu thông tin khách trọ
@@ -36,6 +35,7 @@ public class KhachSanTestDrive {
                 System.out.println("Số tiền phòng = " + arrKhachSan.get(i).tinhTien());
             }
         }
+    }
     }
     
 }
